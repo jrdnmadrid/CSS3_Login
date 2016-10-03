@@ -11,6 +11,7 @@
     margin: 0 auto;
     padding: 20px 20px 20px; 
     width: 310px; 
+    background: white;
 }
 
 body {
@@ -57,12 +58,12 @@ body {
 .login:before {
     content: '';
     position: absolute;
-    top: -1px;
-    right: -1px;
-    bottom: -1px;
-    left: -1px; 
-    z-index: -1; 
-    background: white;
+    top: -8px;
+    right: -8px;
+     bottom: -8px;
+     left: -8px;
+     z-index: -1;
+     background: rgba(0, 0, 0, 0.08);
     border-radius: 4px; 
 }
 
