@@ -195,7 +195,7 @@ input[type=radio] {
 }
  
 input[type=checkbox]:checked::after {
-content:"✔";
+content:"x";
 display:block;
 text-align: center;
 font-size: 16px;
